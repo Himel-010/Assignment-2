@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+/* Shared Styles */
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+    background: black;
+}
+header{
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+.burger-icon{
+    display: none;
+}
+em{
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+/* navbar styles */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.navbar ul{
+    display: flex;
+    gap: 3rem;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    padding: 12px 20px 12px 5px;
+}
+.navbar ul li {
+    list-style: none;
+    color: white;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+}
+.home-button{
+    border-radius: 46px;
+    padding: 8px 20px 8px 20px;
+    background: rgb(230, 83, 60);
+}
