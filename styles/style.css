@@ -435,51 +435,7 @@ th, td{
     background: rgba(233, 68, 68, 0.05);
 }
 
-/* -----------Deals Styles----------- */
 
-.deals-text{
-    text-align: center;
-}
-.info{
-    display: flex;
-    gap: 26px;
-    margin-bottom: 24px;
-}
-.info i{
-    color: var(--primary-color);
-}
-.deals-container{
-    background: url('');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    border-radius: 16px;
-    padding: 56px;
-    display: flex;
-    justify-content: flex-end;
-    margin-bottom: 24px;
-}
-.deals-section{
-    width: 55%;
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 16px;
-    backdrop-filter: blur(5px);
-    /* background: rgba(255, 255, 255, 0.8); */
-    background: rgba(255, 255, 255, 0.5);
-    padding: 50px;
-}
-.deals-container2{
-    background: url('');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: flex-start;
-}
-.see-packages{
-    display: flex;
-    justify-content: center;
-}
 
 /* -----------Media Query and Responsive Section----------- */
 
@@ -497,7 +453,7 @@ th, td{
         cursor: pointer;
         padding: 35px 0 0 0;
     }
-    /* .hamburger-icon i {
+    .hamburger-icon i {
         font-size: 1.5rem;
         color: white;
     }
@@ -516,8 +472,11 @@ th, td{
         color: white;
         text-decoration: none;
         display: block;
-    } */
+    }
+
     /* ham ends */
+
+
     .all-services, .banner, .fitness-image, .run-exercise, .bmi, .team-images{
         grid-template-columns: 1fr;
         gap: 30px;
@@ -545,7 +504,9 @@ th, td{
         flex-direction: column;
        
     }
+
     /* Banner */
+
     .training{
         height: 220px;
     }
@@ -582,6 +543,7 @@ th, td{
     section{
         margin-bottom: 80px;
     }
+    
     /* Footer */
 
     .footer-text-section{
