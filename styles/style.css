@@ -495,9 +495,9 @@ th, td{
     .hamburger-icon {
         display: block; 
         cursor: pointer;
-        padding: 10px;
+        padding: 35px 0 0 0;
     }
-    .hamburger-icon i {
+    /* .hamburger-icon i {
         font-size: 1.5rem;
         color: white;
     }
@@ -516,7 +516,7 @@ th, td{
         color: white;
         text-decoration: none;
         display: block;
-    }
+    } */
     /* ham ends */
     .all-services, .banner, .fitness-image, .run-exercise, .bmi, .team-images{
         grid-template-columns: 1fr;
@@ -537,8 +537,60 @@ th, td{
         margin: 0 auto;
         width: 65%;
     }
+    .team-images{
+        grid-template-rows: repeat(6, 270px);
+    }
+    .training-images{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    /* Banner */
+    .training{
+        height: 220px;
+    }
+    .workout{
+        right: -5px;
+        top: 70px;
+    }
+    .workout h1{
+        font-size: 1.5rem;
+        font-weight: 900;
+    }
+    .workout p, .tutorial p{
+        font-size: 0.7rem;
+    }
+    .tutorial h1{
+        font-weight: 900;
+    }
+    .tutorial{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        left: -5px;
+        top: 430px;
+    }
+    .banner-text h1{
+        font-size: 2.75rem;
+        font-weight: 900;
+        line-height: 55px;
+    }
+    .banner-text span{
+        font-size: 5rem;
+       
+    }
+    section{
+        margin-bottom: 80px;
+    }
+    /* Footer */
 
-  
+    .footer-text-section{
+        flex-direction: column;
+        gap: 25px;
+    }
+    .footer-logo-section{
+        width: 100%;
+    }
     
 }
     
